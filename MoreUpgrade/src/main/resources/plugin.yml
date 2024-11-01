@@ -1,0 +1,8 @@
+name: MoreUpgrade
+version: 2.0
+main: me.flukky.moreupgrade.MoreUpgrade
+api-version: 1.21
+commands:
+  moreupgrade:
+    description: "ให้วัสดุสำหรับการอัพเกรด"
+    aliases: [mu]

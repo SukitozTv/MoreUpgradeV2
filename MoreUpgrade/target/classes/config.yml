@@ -1,0 +1,8 @@
+upgrade_settings:
+  show_debug: true
+  base_cost: 150
+  cost_increase_per_level: 100
+  durability_increase_per_level: 10
+  defense_increase_per_level: 0.5
+  damage_increase_per_level: 1.0
+  attack_speed_increase_per_level: 0.05

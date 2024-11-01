@@ -1,0 +1,99 @@
+netherite_helmet:
+  base_defense: 3
+  base_defense_knockback: 1
+  base_defense_toughess: 3
+  durability: 400
+  material: NETHERITE_HELMET
+  max_upgrade_level: 10
+  name: Netherite Helmet
+  upgrade_levels:
+    level_1:
+      custom_model_data: 2000010
+      defender_increase: 1
+      defender_knockback_increase: 0.1
+      defender_toughness_increase: 1
+      durability_increase: 20
+      effect_upgrade:
+        poison:
+          chance: 0
+          level: 1
+        reflect_poison:
+          chance: 20
+      enchantments:
+        - level: 1
+          type: PROTECTION
+      fail_upgrade: 50
+      required_custom_model_data: 1001
+      required_material: DIAMOND
+    level_2:
+      custom_model_data: 2000010
+      defender_increase: 1.5
+      defender_knockback_increase: 0.1
+      defender_toughness_increase: 1.2
+      durability_increase: 25
+      effect_upgrade:
+        poison:
+          chance: 0
+          level: 1
+        reflect_poison:
+          chance: 25
+      enchantments:
+        - level: 2
+          type: PROTECTION
+      fail_upgrade: 55
+      required_custom_model_data: 1002
+      required_material: DIAMOND
+    level_3:
+      custom_model_data: 2000010
+      defender_increase: 2
+      defender_knockback_increase: 0.1
+      defender_toughness_increase: 1.4
+      durability_increase: 30
+      effect_upgrade:
+        poison:
+          chance: 0
+          level: 1
+        reflect_poison:
+          chance: 30
+      enchantments:
+        - level: 3
+          type: PROTECTION
+      fail_upgrade: 60
+      required_custom_model_data: 1003
+      required_material: DIAMOND
+    level_4:
+      custom_model_data: 2000010
+      defender_increase: 2.5
+      defender_knockback_increase: 0.1
+      defender_toughness_increase: 1.6
+      durability_increase: 30
+      effect_upgrade:
+        poison:
+          chance: 0
+          level: 1
+        reflect_poison:
+          chance: 35
+      enchantments:
+        - level: 3
+          type: PROTECTION
+      fail_upgrade: 62
+      required_custom_model_data: 1004
+      required_material: DIAMOND
+    level_5:
+      custom_model_data: 2000010
+      defender_increase: 3
+      defender_knockback_increase: 0.1
+      defender_toughness_increase: 1.8
+      durability_increase: 30
+      effect_upgrade:
+        poison:
+          chance: 0
+          level: 1
+        reflect_poison:
+          chance: 40
+      enchantments:
+        - level: 3
+          type: PROTECTION
+      fail_upgrade: 64
+      required_custom_model_data: 1005
+      required_material: DIAMOND

@@ -1,0 +1,93 @@
+netherite_sword:
+  name: "Netherite Sword"
+  material: "NETHERITE_SWORD"
+  base_damage: 8.0
+  attack_speed: 1.6
+  durability: 200
+  max_upgrade_level: 10
+  upgrade_levels:
+    level_1:
+      custom_model_data: 2000010
+      damage_increase: 2.0
+      attack_speed_increase: 0.1
+      durability_increase: 20
+      required_material: "DIAMOND"
+      required_custom_model_data: 1001
+      fail_upgrade: 50
+      effect_upgrade:
+        poison:
+          level: 1
+          chance: 20
+        reflect_poison:
+          chance: 0 # คุณสามารถปรับค่าโอกาสได้
+      enchantments:
+        - type: "SHARPNESS"
+          level: 1
+    level_2:
+      custom_model_data: 2000010
+      damage_increase: 2.5
+      attack_speed_increase: 0.1
+      durability_increase: 25
+      required_material: "DIAMOND"
+      required_custom_model_data: 1002
+      fail_upgrade: 55
+      effect_upgrade:
+        poison:
+          level: 1
+          chance: 25
+        reflect_poison:
+          chance: 0 # คุณสามารถปรับค่าโอกาสได้
+      enchantments:
+        - type: "SHARPNESS"
+          level: 2
+    level_3:
+      custom_model_data: 2000010
+      damage_increase: 3.0
+      attack_speed_increase: 0.1
+      durability_increase: 30
+      required_material: "DIAMOND"
+      required_custom_model_data: 1003
+      fail_upgrade: 60
+      effect_upgrade:
+        poison:
+          level: 1
+          chance: 30
+        reflect_poison:
+          chance: 0 # คุณสามารถปรับค่าโอกาสได้
+      enchantments:
+        - type: "SHARPNESS"
+          level: 3
+    level_4:
+      custom_model_data: 2000010
+      damage_increase: 3.5
+      attack_speed_increase: 0.1
+      durability_increase: 30
+      required_material: "DIAMOND"
+      required_custom_model_data: 1004
+      fail_upgrade: 62
+      effect_upgrade:
+        poison:
+          level: 1
+          chance: 35
+        reflect_poison:
+          chance: 0 # คุณสามารถปรับค่าโอกาสได้
+      enchantments:
+        - type: "SHARPNESS"
+          level: 3
+    level_5:
+      custom_model_data: 2000010
+      damage_increase: 4.0
+      attack_speed_increase: 0.1
+      durability_increase: 30
+      required_material: "DIAMOND"
+      required_custom_model_data: 1005
+      fail_upgrade: 64
+      effect_upgrade:
+        poison:
+          level: 1
+          chance: 40
+        reflect_poison:
+          chance: 0 # คุณสามารถปรับค่าโอกาสได้
+      enchantments:
+        - type: "SHARPNESS"
+          level: 3
